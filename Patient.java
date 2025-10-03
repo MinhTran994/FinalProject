@@ -66,13 +66,13 @@ public class Patient extends Person {
     }
 
     // Override abstract method
-    @Override
+   
     public String getRole() {
         return "Patient";
     }
 
     // toString
-    @Override
+    
     public String toString() {
         return super.toString() + ", Role=" + getRole() +
                 ", patientId='" + patientId + '\'' +
